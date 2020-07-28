@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/lv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kajian hari ini"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_marginBottom="8dp"
+        android:id="@+id/bt_iniciar_sesion"
+        android:layout_marginRight="10dp"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:elevation="8dp"
+        app:cardCornerRadius="10dp"
+        android:clickable="true"
+        app:pressedTranslationZ="12dp"
+        app:useCompatPadding="true"
+        app:backgroundTint="@color/colorPrimary">
+        <LinearLayout
+            android:id="@+id/lv_lihat_lokasi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#E91E2F"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@android:color/white"
+                android:src="@drawable/ic_pin_drop_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihat lokasi"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/poppins_regular"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_kajian"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

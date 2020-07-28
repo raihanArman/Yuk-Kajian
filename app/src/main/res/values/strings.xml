@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">YukKajian</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_lokasi">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="hadits">"<i>Barang siapa yang menempuh jalan untuk mencari suatu ilmu. Niscaya Allah memudahkannya ke jalan menuju surga</i>". (HR. Tirmidzi)</string>
+</resources>

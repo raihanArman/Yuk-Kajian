@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a1dd70</color>
+    <color name="colorPrimaryDark">#8bc25e</color>
+    <color name="colorAccent">#addcca</color>
+    <color name="colorGrey">#FAFAFA</color>
+    <color name="background">#dddddd</color>
+    <color name="colorRose">#19B177</color>
+
+    <color name="colorFormBackground">#242424</color>
+    <color name="colorFormText">#838287</color>
+    <color name="colorFormInputBackground">#252527</color>
+    <color name="colorCheckOk">#60D486</color>
+    <color name="colorCheckNo">#838287</color>
+    <color name="colorHint">#838287</color>
+    <color name="colorStroke">#838287</color>
+    <color name="colorError">#F36D6C</color>
+
+
+    <color name="success">#4CAF50</color>
+    <color name="proses">#FFC107</color>
+    <color name="red_main">#CE0303</color>
+    <color name="red_second">#A80303</color>
+</resources>
